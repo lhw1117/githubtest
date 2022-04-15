@@ -23,8 +23,7 @@ public class AppRunner implements ApplicationRunner {
 
             System.out.println(applicationContext.getMessage("greeting",
                                                         new String[] {"leehw22", "test"},
-                                                        Locale.getDefault()))
-            ;
+                                                        Locale.getDefault()));
 
             Thread.sleep(1000l);
         }
