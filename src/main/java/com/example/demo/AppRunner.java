@@ -16,6 +16,8 @@ public class AppRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws InterruptedException {
+
+
         while(true) {
             System.out.println(applicationContext.getMessage("greeting",
                                                         new String[] {"leehw22", "test"},

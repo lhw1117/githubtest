@@ -21,6 +21,7 @@ public class DemoApplication {
         messageSource.setBasename("classpath:/messages");
         messageSource.setDefaultEncoding("UTF-8");
         messageSource.setCacheSeconds(3);
+        
         return messageSource;
     }
 
